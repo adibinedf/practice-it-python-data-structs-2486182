@@ -1,6 +1,7 @@
 from collections import namedtuple, defaultdict
 from pprint import pprint
 
+# find duplicates
 def get_dict(list_to_categorize):
     res = defaultdict(lambda: set())
     for item in list_to_categorize:
